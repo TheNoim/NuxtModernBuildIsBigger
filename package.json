@@ -1,0 +1,29 @@
+{
+  "name": "NuxtModernBigger",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {},
+  "browserslist": {
+    "production": [
+      "> 1% and since 2018",
+      "not ie 11",
+      "not dead"
+    ],
+    "modern": [
+      "last 1 chrome version",
+      "last 1 firefox version"
+    ],
+    "ssr": [
+      "node 14"
+    ]
+  }
+}
